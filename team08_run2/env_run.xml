@@ -830,7 +830,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>pio rearranger communiation options (comp2io) : TRUE implies enable isend</desc>
     </entry>
-    <entry id="PIO_REARR_COMM_MAX_PEND_REQ_IO2COMP" value="64">
+    <entry id="PIO_REARR_COMM_MAX_PEND_REQ_IO2COMP" value="-1">
       <type>integer</type>
       <valid_values/>
       <desc>pio rearranger communication max pending requests (io2comp) : -1 implies no bound on max pending requests </desc>
@@ -840,7 +840,7 @@
       <valid_values>TRUE,FALSE</valid_values>
       <desc>pio rearranger communiation options (io2comp) : TRUE implies enable handshake</desc>
     </entry>
-    <entry id="PIO_REARR_COMM_ENABLE_ISEND_IO2COMP" value="TRUE">
+    <entry id="PIO_REARR_COMM_ENABLE_ISEND_IO2COMP" value="FALSE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>pio rearranger communiation options (io2comp) : TRUE implies enable isend</desc>
@@ -859,18 +859,18 @@
     </entry>
     <entry id="PIO_TYPENAME">
       <type>char</type>
-      <valid_values>netcdf,pnetcdf,netcdf4p,netcdf4c,default</valid_values>
+      <valid_values>netcdf,netcdf4p,netcdf4c</valid_values>
       <desc>pio io type</desc>
       <values>
-        <value compclass="ATM">pnetcdf</value>
-        <value compclass="CPL">pnetcdf</value>
-        <value compclass="OCN">pnetcdf</value>
-        <value compclass="WAV">pnetcdf</value>
-        <value compclass="GLC">pnetcdf</value>
-        <value compclass="ICE">pnetcdf</value>
-        <value compclass="ROF">pnetcdf</value>
-        <value compclass="LND">pnetcdf</value>
-        <value compclass="ESP">pnetcdf</value>
+        <value compclass="ATM">netcdf</value>
+        <value compclass="CPL">netcdf</value>
+        <value compclass="OCN">netcdf</value>
+        <value compclass="WAV">netcdf</value>
+        <value compclass="GLC">netcdf</value>
+        <value compclass="ICE">netcdf</value>
+        <value compclass="ROF">netcdf</value>
+        <value compclass="LND">netcdf</value>
+        <value compclass="ESP">netcdf</value>
       </values>
     </entry>
     <entry id="PIO_NETCDF_FORMAT">

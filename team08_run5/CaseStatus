@@ -1,4 +1,97 @@
-2020-11-09 13:59:48: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+2020-11-09 15:52:16: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
  ---------------------------------------------------
-2020-11-09 13:59:49: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+2020-11-09 15:52:16: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:17: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:17: xmlchange success <command> ./xmlchange RESUBMIT=3  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:17: xmlchange success <command> ./xmlchange STOP_N=3  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:17: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:17: xmlchange success <command> ./xmlchange REST_N=1  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:18: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:18: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:18: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
+ ---------------------------------------------------
+2020-11-09 15:52:18: case.setup starting 
+ ---------------------------------------------------
+2020-11-09 15:52:19: case.setup success 
+ ---------------------------------------------------
+2020-11-09 15:52:19: case.build starting 
+ ---------------------------------------------------
+2020-11-09 15:52:39: case.build error 
+ERROR: BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/ice.bldlog.201109-155219
+BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/rof.bldlog.201109-155219
+ ---------------------------------------------------
+2020-11-09 15:56:56: case.setup starting 
+ ---------------------------------------------------
+2020-11-09 15:56:57: case.setup success 
+ ---------------------------------------------------
+2020-11-09 15:57:06: case.build starting 
+ ---------------------------------------------------
+2020-11-09 15:57:37: case.build error 
+ERROR: BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/ice.bldlog.201109-155706
+BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/rof.bldlog.201109-155706
+BUILD FAIL: cism.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/glc.bldlog.201109-155706
+ ---------------------------------------------------
+2020-11-09 16:09:14: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:09:14: case.build error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't load '/usr/lib64/perl5/vendor_perl/auto/XML/LibXML/LibXML.so' for module XML::LibXML: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by /opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/libxml2-2.9.10-wkncmwylkzn4hwyepm7qiwpeo75maozx/lib/libxml2.so.2) at /usr/lib64/perl5/DynaLoader.pm line 190.
+ at /usr/lib64/perl5/vendor_perl/XML/LibXML.pm line 154.
+BEGIN failed--compilation aborted at /usr/lib64/perl5/vendor_perl/XML/LibXML.pm line 154.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/cime/utils/perl5lib/Config/SetupTools.pm line 5.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/cime/utils/perl5lib/Config/SetupTools.pm line 5.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 414.
+ ---------------------------------------------------
+2020-11-09 16:10:57: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:11:11: case.build error 
+ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/rof.bldlog.201109-161057
+BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/ice.bldlog.201109-161057
+BUILD FAIL: cism.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/glc.bldlog.201109-161057
+ ---------------------------------------------------
+2020-11-09 16:12:27: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:12:40: case.build error 
+ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/rof.bldlog.201109-161227
+BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/ice.bldlog.201109-161227
+BUILD FAIL: cism.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/glc.bldlog.201109-161227
+ ---------------------------------------------------
+2020-11-09 16:15:13: build.clean starting 
+ ---------------------------------------------------
+2020-11-09 16:17:58: build.clean success 
+ ---------------------------------------------------
+2020-11-09 16:18:11: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:27:38: case.build error 
+ERROR: BUILD FAIL: cism.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/glc.bldlog.201109-161812
+ ---------------------------------------------------
+2020-11-09 16:32:03: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:32:09: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
+2020-11-09 16:34:34: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:34:39: case.run starting 
+ ---------------------------------------------------
+2020-11-09 16:34:43: model execution starting 
+ ---------------------------------------------------
+2020-11-09 16:34:44: model execution success 
+ ---------------------------------------------------
+2020-11-09 16:34:44: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-163439
+ ---------------------------------------------------
+2020-11-09 16:34:44: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-163439
  ---------------------------------------------------

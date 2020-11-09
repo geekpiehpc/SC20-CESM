@@ -1,0 +1,3 @@
+&clm_initinterp_inparm
+use_init_interp=.true.
+/

@@ -1,26 +1,199 @@
-2020-11-09 14:04:28: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+2020-11-09 15:42:09: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
  ---------------------------------------------------
-2020-11-09 14:04:28: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+2020-11-09 15:42:09: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
  ---------------------------------------------------
-2020-11-09 14:04:28: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld  </command>
+2020-11-09 15:42:09: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld  </command>
  ---------------------------------------------------
-2020-11-09 14:04:28: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+2020-11-09 15:42:09: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
  ---------------------------------------------------
-2020-11-09 14:04:29: xmlchange success <command> ./xmlchange STOP_N=1  </command>
+2020-11-09 15:42:09: xmlchange success <command> ./xmlchange STOP_N=1  </command>
  ---------------------------------------------------
-2020-11-09 14:04:29: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
+2020-11-09 15:42:10: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
  ---------------------------------------------------
-2020-11-09 14:04:29: xmlchange success <command> ./xmlchange REST_N=1  </command>
+2020-11-09 15:42:10: xmlchange success <command> ./xmlchange REST_N=1  </command>
  ---------------------------------------------------
-2020-11-09 14:04:29: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
+2020-11-09 15:42:10: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
  ---------------------------------------------------
-2020-11-09 14:04:30: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run  </command>
+2020-11-09 15:42:10: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run  </command>
  ---------------------------------------------------
-2020-11-09 14:04:30: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
+2020-11-09 15:42:11: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
  ---------------------------------------------------
-2020-11-09 14:04:30: case.setup starting 
+2020-11-09 15:42:11: case.setup starting 
  ---------------------------------------------------
-2020-11-09 14:04:32: case.setup success 
+2020-11-09 15:42:12: case.setup success 
  ---------------------------------------------------
-2020-11-09 14:04:32: case.build starting 
+2020-11-09 15:42:12: case.build starting 
+ ---------------------------------------------------
+2020-11-09 15:50:17: case.build error 
+ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/rof.bldlog.201109-154212
+BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/ice.bldlog.201109-154212
+ ---------------------------------------------------
+2020-11-09 15:53:13: build.clean starting 
+ ---------------------------------------------------
+2020-11-09 15:55:33: build.clean error 
+
+ ---------------------------------------------------
+2020-11-09 15:55:39: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:01:07: case.build error 
+ERROR: BUILD FAIL: buildexe failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.bldlog.201109-155539
+ ---------------------------------------------------
+2020-11-09 16:07:27: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:10:10: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+    ERROR:root:[Errno 2] No such file or directory: 'svn'
+    ERROR:root:In directory
+        /mnt/exports/shared/home/cesm/cesm/cesm/components/cam
+    Command execution failed. Does the executable exist?:
+        svn info /mnt/exports/shared/home/cesm/cesm/cesm/components/cam/chem_proc
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CAM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_POP.cfg
+    Checking status of externals: cam, chem_proc, 
+    ERROR: In directory
+        /mnt/exports/shared/home/cesm/cesm/cesm/components/cam
+    Command execution failed. Does the executable exist?:
+        svn info /mnt/exports/shared/home/cesm/cesm/cesm/components/cam/chem_proc
+
+To solve this, either:
+
+(1) Find and fix the problem: From /mnt/exports/shared/home/cesm/cesm/cesm, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2020-11-09 16:11:14: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:11:35: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+    ERROR:root:SVN returned invalid XML message
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CAM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_POP.cfg
+    Checking status of externals: cam, chem_proc, 
+    ERROR: SVN returned invalid XML message
+
+To solve this, either:
+
+(1) Find and fix the problem: From /mnt/exports/shared/home/cesm/cesm/cesm, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2020-11-09 16:12:09: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:12:29: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+    ERROR:root:SVN returned invalid XML message
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CAM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_POP.cfg
+    Checking status of externals: cam, chem_proc, 
+    ERROR: SVN returned invalid XML message
+
+To solve this, either:
+
+(1) Find and fix the problem: From /mnt/exports/shared/home/cesm/cesm/cesm, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2020-11-09 16:15:18: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:23:59: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+    ERROR:root:SVN returned invalid XML message
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CAM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_POP.cfg
+    Checking status of externals: cam, chem_proc, 
+    ERROR: SVN returned invalid XML message
+
+To solve this, either:
+
+(1) Find and fix the problem: From /mnt/exports/shared/home/cesm/cesm/cesm, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2020-11-09 16:24:24: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:24:51: case.build success 
+ ---------------------------------------------------
+2020-11-09 16:25:01: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:25:10: case.run starting 
+ ---------------------------------------------------
+2020-11-09 16:25:16: model execution starting 
+ ---------------------------------------------------
+2020-11-09 16:25:20: model execution success 
+ ---------------------------------------------------
+2020-11-09 16:25:20: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-162510
+ ---------------------------------------------------
+2020-11-09 16:25:20: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-162510
+ ---------------------------------------------------
+2020-11-09 16:27:04: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:27:11: case.run starting 
+ ---------------------------------------------------
+2020-11-09 16:27:16: model execution starting 
+ ---------------------------------------------------
+2020-11-09 16:27:19: model execution success 
+ ---------------------------------------------------
+2020-11-09 16:27:19: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-162711
+ ---------------------------------------------------
+2020-11-09 16:27:19: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-162711
+ ---------------------------------------------------
+2020-11-09 16:34:10: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:34:17: case.run starting 
+ ---------------------------------------------------
+2020-11-09 16:34:23: model execution starting 
+ ---------------------------------------------------
+2020-11-09 16:34:26: model execution success 
+ ---------------------------------------------------
+2020-11-09 16:34:26: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-163417
+ ---------------------------------------------------
+2020-11-09 16:34:26: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run/cesm.log.201109-163417
  ---------------------------------------------------

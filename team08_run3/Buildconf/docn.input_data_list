@@ -1,0 +1,3 @@
+domain1 = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/share/domains/domain.ocn.fv0.9x1.25_gx1v7.151020.nc
+file1 = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/atm/cam/sst/sst_HadOIBl_bc_0.9x1.25_2000climo_c180511.nc
+domainfile = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/share/domains/domain.ocn.fv0.9x1.25_gx1v7.151020.nc

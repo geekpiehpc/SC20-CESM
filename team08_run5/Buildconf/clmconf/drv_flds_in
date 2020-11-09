@@ -1,0 +1,14 @@
+&drydep_inparm
+/
+&megan_emis_nl
+/
+&fire_emis_nl
+/
+&carma_inparm
+/
+!#--------------------------------------------------------------------------------------------------------------------------
+!# drv_flds_in:: Comment:
+!# This namelist was created using the following command-line:
+!#     /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLM build-namelist -cimeroot /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../.. -infile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/Buildconf/clmconf/namelist -csmdata /mnt/exports/shared/home/cesm/cesm/CESMinputfiles -inputdata /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=18500101 use_init_interp=.true.  init_interp_method='use_finidat_areas'/  -no-megan -use_case 1850_control -res 0.9x1.25 -clm_start_type startup -envxml_dir /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5 -l_ncpl 48 -lnd_frac /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/share/domains/domain.lnd.fv0.9x1.25_gx1v7.151020.nc -glc_nec 10 -co2_ppmv 284.7 -co2_type diagnostic -config /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/Buildconf/clmconf/config_cache.xml -bgc bgc -crop -clm_accelerated_spinup off -lnd_tuning_mode clm5_0_cam6.0 -mask gx1v7
+!# For help on options use: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLM build-namelist -help
+!#--------------------------------------------------------------------------------------------------------------------------

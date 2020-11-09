@@ -1,44 +1,44 @@
-2020-11-09 14:03:01: ./create_newcase --case /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1 --mach Azure --res f09_g17 --compset B1850 --compiler intel --pecount B14
+2020-11-09 14:56:09: ./create_newcase --case /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1 --mach Azure --res f09_g17 --compset B1850 --compiler intel
  ---------------------------------------------------
-2020-11-09 14:03:01: Compset longname is 1850_CAM60_CLM50%BGC-CROP_CICE_POP2%ECO%ABIO-DIC_MOSART_CISM2%NOEVOLVE_WW3_BGC%BDRD
+2020-11-09 14:56:09: Compset longname is 1850_CAM60_CLM50%BGC-CROP_CICE_POP2%ECO%ABIO-DIC_MOSART_CISM2%NOEVOLVE_WW3_BGC%BDRD
  ---------------------------------------------------
-2020-11-09 14:03:01: Compset specification file is /mnt/exports/shared/home/cesm/cesm/cesm/cime_config/config_compsets.xml
+2020-11-09 14:56:09: Compset specification file is /mnt/exports/shared/home/cesm/cesm/cesm/cime_config/config_compsets.xml
  ---------------------------------------------------
-2020-11-09 14:03:01: Pes     specification file is /mnt/exports/shared/home/cesm/cesm/cesm/cime_config/config_pes.xml
+2020-11-09 14:56:09: Pes     specification file is /mnt/exports/shared/home/cesm/cesm/cesm/cime_config/config_pes.xml
  ---------------------------------------------------
-2020-11-09 14:03:01: Forcing is 1850
+2020-11-09 14:56:09: Forcing is 1850
  ---------------------------------------------------
-2020-11-09 14:03:01: Component CPL is Biogeochemistry intercomponent  with diagnostic CO2
+2020-11-09 14:56:09: Component CPL is Biogeochemistry intercomponent  with diagnostic CO2
  ---------------------------------------------------
-2020-11-09 14:03:01: Using None coupler instances
+2020-11-09 14:56:09: Using None coupler instances
  ---------------------------------------------------
-2020-11-09 14:03:01: Component ATM is CAM cam6 physics:
+2020-11-09 14:56:09: Component ATM is CAM cam6 physics:
  ---------------------------------------------------
-2020-11-09 14:03:01: ATM_GRID is 0.9x1.25
+2020-11-09 14:56:09: ATM_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 14:03:01: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
+2020-11-09 14:56:09: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
  ---------------------------------------------------
-2020-11-09 14:03:01: LND_GRID is 0.9x1.25
+2020-11-09 14:56:09: LND_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 14:03:01: Component ICE is Sea ICE (cice) model version 5
+2020-11-09 14:56:09: Component ICE is Sea ICE (cice) model version 5
  ---------------------------------------------------
-2020-11-09 14:03:01: ICE_GRID is gx1v7
+2020-11-09 14:56:09: ICE_GRID is gx1v7
  ---------------------------------------------------
-2020-11-09 14:03:01: Component OCN is POP2 EcosystemAbiotic DIC/DIC14
+2020-11-09 14:56:09: Component OCN is POP2 EcosystemAbiotic DIC/DIC14
  ---------------------------------------------------
-2020-11-09 14:03:01: OCN_GRID is gx1v7
+2020-11-09 14:56:09: OCN_GRID is gx1v7
  ---------------------------------------------------
-2020-11-09 14:03:01: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+2020-11-09 14:56:09: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
  ---------------------------------------------------
-2020-11-09 14:03:01: ROF_GRID is r05
+2020-11-09 14:56:09: ROF_GRID is r05
  ---------------------------------------------------
-2020-11-09 14:03:01: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+2020-11-09 14:56:09: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
  ---------------------------------------------------
-2020-11-09 14:03:01: GLC_GRID is gland4
+2020-11-09 14:56:09: GLC_GRID is gland4
  ---------------------------------------------------
-2020-11-09 14:03:01: Component WAV is Wave Watch
+2020-11-09 14:56:09: Component WAV is Wave Watch
  ---------------------------------------------------
-2020-11-09 14:03:01: WAV_GRID is ww3a
+2020-11-09 14:56:09: WAV_GRID is ww3a
  ---------------------------------------------------
-2020-11-09 14:03:01: ESP_GRID is None
+2020-11-09 14:56:09: ESP_GRID is None
  ---------------------------------------------------

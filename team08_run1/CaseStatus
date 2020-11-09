@@ -1,26 +1,30 @@
-2020-11-09 14:03:02: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+2020-11-09 14:56:14: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
  ---------------------------------------------------
-2020-11-09 14:03:02: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+2020-11-09 14:56:18: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
  ---------------------------------------------------
-2020-11-09 14:03:03: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld  </command>
+2020-11-09 14:56:21: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld  </command>
  ---------------------------------------------------
-2020-11-09 14:03:03: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+2020-11-09 14:56:24: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
  ---------------------------------------------------
-2020-11-09 14:03:03: xmlchange success <command> ./xmlchange STOP_N=12  </command>
+2020-11-09 14:56:28: xmlchange success <command> ./xmlchange STOP_N=12  </command>
  ---------------------------------------------------
-2020-11-09 14:03:03: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
+2020-11-09 14:56:29: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
  ---------------------------------------------------
-2020-11-09 14:03:04: xmlchange success <command> ./xmlchange REST_N=1  </command>
+2020-11-09 14:56:31: xmlchange success <command> ./xmlchange REST_N=1  </command>
  ---------------------------------------------------
-2020-11-09 14:03:04: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
+2020-11-09 14:56:32: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
  ---------------------------------------------------
-2020-11-09 14:03:04: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run  </command>
+2020-11-09 14:56:35: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run  </command>
  ---------------------------------------------------
-2020-11-09 14:03:05: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
+2020-11-09 14:56:38: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
  ---------------------------------------------------
-2020-11-09 14:03:05: case.setup starting 
+2020-11-09 14:56:42: case.setup starting 
  ---------------------------------------------------
-2020-11-09 14:03:06: case.setup success 
+2020-11-09 14:56:53: case.setup success 
  ---------------------------------------------------
-2020-11-09 14:03:06: case.build starting 
+2020-11-09 14:56:54: case.build starting 
+ ---------------------------------------------------
+2020-11-09 15:00:24: case.build error 
+ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/rof.bldlog.201109-145655
+BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/ice.bldlog.201109-145655
  ---------------------------------------------------

@@ -12,7 +12,7 @@
       <type>char</type>
       <desc>case description</desc>
     </entry>
-    <entry id="RUNDIR" value="$CIME_OUTPUT_ROOT/$CASE/run">
+    <entry id="RUNDIR" value="/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run">
       <type>char</type>
       <desc>
       The directory where the executable will be run.
@@ -110,7 +110,7 @@
       If TRUE, then the refcase data is prestaged into the executable directory
     </desc>
     </entry>
-    <entry id="RUN_STARTDATE" value="0001-01-01">
+    <entry id="RUN_STARTDATE" value="1850-01-01">
       <type>char</type>
       <desc>
       Run start date (yyyy-mm-dd). Only used for startup or hybrid runs.
@@ -122,14 +122,14 @@
       Run start time-of-day
     </desc>
     </entry>
-    <entry id="STOP_OPTION" value="ndays">
+    <entry id="STOP_OPTION" value="nmonths">
       <type>char</type>
       <valid_values>none,never,nsteps,nstep,nseconds,nsecond,nminutes,nminute,nhours,nhour,ndays,nday,nmonths,nmonth,nyears,nyear,date,ifdays0,end</valid_values>
       <desc>
       Sets the run length along with STOP_N and STOP_DATE
     </desc>
     </entry>
-    <entry id="STOP_N" value="5">
+    <entry id="STOP_N" value="3">
       <type>integer</type>
       <desc>
       Provides a numerical count for $STOP_OPTION.
@@ -142,14 +142,14 @@
       negative value implies off
     </desc>
     </entry>
-    <entry id="REST_OPTION" value="$STOP_OPTION">
+    <entry id="REST_OPTION" value="nmonths">
       <type>char</type>
       <valid_values>none,never,nsteps,nstep,nseconds,nsecond,nminutes,nminute,nhours,nhour,ndays,nday,nmonths,nmonth,nyears,nyear,date,ifdays0,end</valid_values>
       <desc>
       sets frequency of model restart writes (same options as STOP_OPTION)
     </desc>
     </entry>
-    <entry id="REST_N" value="$STOP_N">
+    <entry id="REST_N" value="1">
       <type>integer</type>
       <desc>
       sets model restart writes with REST_OPTION and REST_DATE
@@ -232,7 +232,7 @@
       Set to TRUE when continuing a run.
     </desc>
     </entry>
-    <entry id="RESUBMIT" value="0">
+    <entry id="RESUBMIT" value="3">
       <type>integer</type>
       <desc>If RESUBMIT is greater than 0, then case will automatically resubmit
     Enables the model to automatically resubmit a new run.  To get
@@ -859,18 +859,18 @@
     </entry>
     <entry id="PIO_TYPENAME">
       <type>char</type>
-      <valid_values>netcdf,pnetcdf,netcdf4p,netcdf4c,default</valid_values>
+      <valid_values>netcdf,netcdf4p,netcdf4c</valid_values>
       <desc>pio io type</desc>
       <values>
-        <value compclass="ATM">pnetcdf</value>
-        <value compclass="CPL">pnetcdf</value>
-        <value compclass="OCN">pnetcdf</value>
-        <value compclass="WAV">pnetcdf</value>
-        <value compclass="GLC">pnetcdf</value>
-        <value compclass="ICE">pnetcdf</value>
-        <value compclass="ROF">pnetcdf</value>
-        <value compclass="LND">pnetcdf</value>
-        <value compclass="ESP">pnetcdf</value>
+        <value compclass="ATM">netcdf</value>
+        <value compclass="CPL">netcdf</value>
+        <value compclass="OCN">netcdf</value>
+        <value compclass="WAV">netcdf</value>
+        <value compclass="GLC">netcdf</value>
+        <value compclass="ICE">netcdf</value>
+        <value compclass="ROF">netcdf</value>
+        <value compclass="LND">netcdf</value>
+        <value compclass="ESP">netcdf</value>
       </values>
     </entry>
     <entry id="PIO_NETCDF_FORMAT">
@@ -961,7 +961,7 @@
     </entry>
   </group>
   <group id="run_coupling">
-    <entry id="CPL_I2O_PER_CAT" value="FALSE">
+    <entry id="CPL_I2O_PER_CAT" value="TRUE">
       <type>logical</type>
       <valid_values>TRUE,FALSE</valid_values>
       <desc>determine if per ice thickness category fields are passed from ice to ocean - DO NOT EDIT (set by POP build-namelist)</desc>

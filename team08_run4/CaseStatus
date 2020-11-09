@@ -1,4 +1,35 @@
-2020-11-09 13:56:27: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+2020-11-09 16:23:44: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
  ---------------------------------------------------
-2020-11-09 13:56:27: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+2020-11-09 16:23:44: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:45: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run4/bld  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:45: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:46: xmlchange success <command> ./xmlchange STOP_N=12  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:46: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:47: xmlchange success <command> ./xmlchange REST_N=1  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:48: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:48: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run4/run  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:49: xmlchange success <command> ./xmlchange RUN_TYPE=branch  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:49: xmlchange success <command> ./xmlchange RUN_REFCASE=team01_run1  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:50: xmlchange success <command> ./xmlchange RUN_REFDATE=1851-01-01  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:50: xmlchange success <command> ./xmlchange RUN_STARTDATE=1851-01-01  </command>
+ ---------------------------------------------------
+2020-11-09 16:23:51: case.setup starting 
+ ---------------------------------------------------
+2020-11-09 16:23:53: case.setup success 
+ ---------------------------------------------------
+2020-11-09 16:23:53: case.build starting 
+ ---------------------------------------------------
+2020-11-09 16:23:56: case.build error 
+ERROR: Could not download refcase from any server
  ---------------------------------------------------

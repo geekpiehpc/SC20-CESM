@@ -1,0 +1,7 @@
+paramfile = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/lnd/clm2/paramdata/clm5_params.c171117.nc
+finidat = f.e20.FHIST.f09_f09.cesm2_1.001_v2.clm2.r.2000-01-01-00000.nc
+fatmlndfrc = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/share/domains/domain.lnd.fv0.9x1.25_gx1v7.151020.nc
+fsnowaging = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fsurdat = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/lnd/clm2/surfdata_map/release-clm5.0.18/surfdata_0.9x1.25_hist_16pfts_Irrig_CMIP6_simyr2000_c190214.nc
+fsnowoptics = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc
+stream_fldfilename_urbantv = /mnt/exports/shared/home/cesm/cesm/CESMinputfiles/lnd/clm2/urbandata/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923.nc

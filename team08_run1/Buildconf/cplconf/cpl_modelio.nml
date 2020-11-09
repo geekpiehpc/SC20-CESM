@@ -1,7 +1,7 @@
 &modelio
   diri = "/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cpl"
   diro = "/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run"
-  logfile = "cpl.log.201109-140307"
+  logfile = "cpl.log.201109-145655"
 /
 &pio_inparm
   pio_netcdf_format = "64bit_offset"

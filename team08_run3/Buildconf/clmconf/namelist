@@ -1,0 +1,6 @@
+&comp_inparm 
+
+finidat = 'f.e20.FHIST.f09_f09.cesm2_1.001_v2.clm2.r.2000-01-01-00000.nc'
+use_init_interp=.true.
+
+/ 

@@ -1,42 +1,42 @@
-2020-11-09 13:56:17: ./create_newcase --case /mnt/exports/shared/home/cesm/cesm/CSM/team08_run3 --mach Azure --res f09_f09_mg17 --compset F2000climo --compiler intel
+2020-11-09 14:49:55: ./create_newcase --case /mnt/exports/shared/home/cesm/cesm/CSM/team08_run3 --mach Azure --res f09_f09_mg17 --compset F2000climo --compiler intel
  ---------------------------------------------------
-2020-11-09 13:56:17: Compset longname is 2000_CAM60_CLM50%SP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV
+2020-11-09 14:49:55: Compset longname is 2000_CAM60_CLM50%SP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV
  ---------------------------------------------------
-2020-11-09 13:56:17: Compset specification file is /mnt/exports/shared/home/cesm/cesm/cesm/components/cam//cime_config/config_compsets.xml
+2020-11-09 14:49:55: Compset specification file is /mnt/exports/shared/home/cesm/cesm/cesm/components/cam//cime_config/config_compsets.xml
  ---------------------------------------------------
-2020-11-09 13:56:17: Pes     specification file is /mnt/exports/shared/home/cesm/cesm/cesm/components/cam//cime_config/config_pes.xml
+2020-11-09 14:49:55: Pes     specification file is /mnt/exports/shared/home/cesm/cesm/cesm/components/cam//cime_config/config_pes.xml
  ---------------------------------------------------
-2020-11-09 13:56:17: Forcing is 1972-2004
+2020-11-09 14:49:55: Forcing is 1972-2004
  ---------------------------------------------------
-2020-11-09 13:56:17: Using None coupler instances
+2020-11-09 14:49:55: Using None coupler instances
  ---------------------------------------------------
-2020-11-09 13:56:17: Component ATM is CAM cam6 physics:
+2020-11-09 14:49:55: Component ATM is CAM cam6 physics:
  ---------------------------------------------------
-2020-11-09 13:56:17: ATM_GRID is 0.9x1.25
+2020-11-09 14:49:55: ATM_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 13:56:17: Component LND is clm5.0:Satellite phenology:
+2020-11-09 14:49:55: Component LND is clm5.0:Satellite phenology:
  ---------------------------------------------------
-2020-11-09 13:56:17: LND_GRID is 0.9x1.25
+2020-11-09 14:49:55: LND_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 13:56:17: Component ICE is Sea ICE (cice) model version 5 :prescribed cice
+2020-11-09 14:49:55: Component ICE is Sea ICE (cice) model version 5 :prescribed cice
  ---------------------------------------------------
-2020-11-09 13:56:17: ICE_GRID is 0.9x1.25
+2020-11-09 14:49:55: ICE_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 13:56:17: Component OCN is DOCN   prescribed ocean mode
+2020-11-09 14:49:55: Component OCN is DOCN   prescribed ocean mode
  ---------------------------------------------------
-2020-11-09 13:56:17: OCN_GRID is 0.9x1.25
+2020-11-09 14:49:55: OCN_GRID is 0.9x1.25
  ---------------------------------------------------
-2020-11-09 13:56:17: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+2020-11-09 14:49:55: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
  ---------------------------------------------------
-2020-11-09 13:56:17: ROF_GRID is r05
+2020-11-09 14:49:55: ROF_GRID is r05
  ---------------------------------------------------
-2020-11-09 13:56:17: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+2020-11-09 14:49:55: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
  ---------------------------------------------------
-2020-11-09 13:56:17: GLC_GRID is gland4
+2020-11-09 14:49:55: GLC_GRID is gland4
  ---------------------------------------------------
-2020-11-09 13:56:17: Component WAV is Stub wave component
+2020-11-09 14:49:55: Component WAV is Stub wave component
  ---------------------------------------------------
-2020-11-09 13:56:17: WAV_GRID is null
+2020-11-09 14:49:55: WAV_GRID is null
  ---------------------------------------------------
-2020-11-09 13:56:17: ESP_GRID is None
+2020-11-09 14:49:55: ESP_GRID is None
  ---------------------------------------------------

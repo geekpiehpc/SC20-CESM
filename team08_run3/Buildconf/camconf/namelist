@@ -1,0 +1,8 @@
+&comp_inparm 
+
+ ncdata = 'f.e20.FHIST.f09_f09.cesm2_1.001_v2.cam.i.2000-01-01-00000.nc'
+ dtime = 1800
+ start_ymd = 20000101
+ 
+
+/ 

@@ -1,0 +1,8 @@
+&comp_inparm 
+
+ ncdata = 'b.e20.B1850.f09_g17.pi_control.all.299_merge_v3waccm.cam.i.0134-01-01-00000.nc'
+ dtime = 1800
+ start_ymd = 18500101
+ 
+
+/ 

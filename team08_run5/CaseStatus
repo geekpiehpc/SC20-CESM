@@ -1,0 +1,4 @@
+2020-11-09 13:59:48: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+ ---------------------------------------------------
+2020-11-09 13:59:49: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+ ---------------------------------------------------

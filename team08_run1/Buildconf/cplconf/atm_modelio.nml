@@ -1,0 +1,13 @@
+&modelio
+  diri = "/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/atm"
+  diro = "/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run"
+  logfile = "atm.log.201109-140307"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 60
+  pio_typename = "pnetcdf"
+/

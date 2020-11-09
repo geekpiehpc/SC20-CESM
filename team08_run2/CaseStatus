@@ -1,0 +1,26 @@
+2020-11-09 14:04:28: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=1:00:00  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:28: xmlchange success <command> ./xmlchange --subgroup case.st_archive JOB_WALLCLOCK_TIME=01:00:00  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:28: xmlchange success <command> ./xmlchange EXEROOT=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/bld  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:28: xmlchange success <command> ./xmlchange RESUBMIT=0  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:29: xmlchange success <command> ./xmlchange STOP_N=1  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:29: xmlchange success <command> ./xmlchange STOP_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:29: xmlchange success <command> ./xmlchange REST_N=1  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:29: xmlchange success <command> ./xmlchange REST_OPTION=nmonths  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:30: xmlchange success <command> ./xmlchange RUNDIR=/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run2/run  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:30: xmlchange success <command> ./xmlchange RUN_STARTDATE=1850-01-01  </command>
+ ---------------------------------------------------
+2020-11-09 14:04:30: case.setup starting 
+ ---------------------------------------------------
+2020-11-09 14:04:32: case.setup success 
+ ---------------------------------------------------
+2020-11-09 14:04:32: case.build starting 
+ ---------------------------------------------------

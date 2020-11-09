@@ -1,0 +1,6 @@
+&comp_inparm 
+
+finidat = 'b.e20.B1850.f09_g17.pi_control.all.299_merge_v3.clm2.r.0134-01-01-00000.nc'
+use_init_interp=.true.
+
+/ 

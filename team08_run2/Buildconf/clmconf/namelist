@@ -1,0 +1,6 @@
+&comp_inparm 
+
+finidat = 'b.e20.B1850.f19_g17.release_cesm2_1_0.020.clm2.r.0301-01-01-00000.nc'
+use_init_interp=.true.
+
+/ 

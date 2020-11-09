@@ -1,0 +1,8 @@
+&comp_inparm 
+
+ ncdata = 'b.e20.B1850.f19_g17.release_cesm2_1_0.020.cam.i.0301-01-01-00000.nc'
+ dtime = 1800
+ start_ymd = 18500101
+ 
+
+/ 

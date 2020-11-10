@@ -8,7 +8,7 @@
  tropic_distribution_type = 'cartesian'
 /
 &io_nml
- log_filename = '/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/ocn.log.201109-163439'
+ log_filename = '/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/ocn.log.201110-064416'
  lredirect_stdout = .true.
  luse_pointer_files = .true.
  num_iotasks = 1

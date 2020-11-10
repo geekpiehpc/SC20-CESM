@@ -794,7 +794,7 @@
     </entry>
   </group>
   <group id="run_mpi">
-    <entry id="MPI_RUN_COMMAND" value="UNSET">
+    <entry id="MPI_RUN_COMMAND" value="mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run2/host">
       <type>char</type>
       <desc>override the mpi run command, do not include model executable</desc>
     </entry>

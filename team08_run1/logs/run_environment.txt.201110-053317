@@ -1,0 +1,267 @@
+
+
+CONDA_SHLVL=1
+PYTHONUNBUFFERED=1
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LD_LIBRARY_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/slib:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/libfabric/lib:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/lib/release:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/lib:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/debugger_2019/libipt/intel64/lib:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/lib:/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/lib:/opt/nonspack/hdf5-intel-19.0.5.281-parallel/lib:/opt/nonspack/pnetcdf-1.12.1-intel/lib:
+CONDA_EXE=/opt/anaconda3/bin/conda
+SSH_CONNECTION=10.0.0.6 37086 10.0.0.19 22
+INCLUDE=/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/include:/opt/nonspack/hdf5-intel-19.0.5.281-parallel/include:/opt/nonspack/pnetcdf-1.12.1-intel/include:
+OMP_STACKSIZE=256M
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH
+LANG=en_US.UTF-8
+HISTCONTROL=ignoreboth
+HOSTNAME=ip-0A000013
+VT_MPI=impi4
+IPPROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/ipp
+CLCK_ROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5
+OLDPWD=/mnt/exports/shared/home/cesm
+INSPECTOR_2019_DIR=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/inspector_2019.5.0.602103
+VT_ARCH=intel64
+CONDA_PREFIX=/opt/anaconda3
+VT_SLIB_DIR=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/slib
+FI_PROVIDER_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/libfabric/lib/prov
+_CE_M=
+INTEL_PYTHONHOME=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/debugger_2019/python/intel64/
+NETCDF=/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel
+CLASSPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/lib/mpi.jar:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/daal/lib/daal.jar
+MPIF90=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin/mpif90
+XDG_SESSION_ID=7
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+USER=cesm
+ENV=/usr/share/Modules/init/profile.sh
+CONDA_PATH_BACKUP=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/advisor_2019.5.0.602216/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/vtune_amplifier_2019.6.0.602217/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/inspector_2019.5.0.602103/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/bin/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/bin/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/libfabric/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/debugger_2019/gdb/intel64/bin:/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/bin:/opt/nonspack/hdf5-intel-19.0.5.281-parallel/bin:/opt/nonspack/pnetcdf-1.12.1-intel/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/cycle/jetpack/bin:/opt/spack/bin
+CONDA_PS1_BACKUP=
+RESTART_INPUT_TS_FMT=nc
+MPICXX=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin/mpicxx
+SELINUX_ROLE_REQUESTED=
+LBQUERY=FALSE
+PWD=/mnt/exports/shared/home/cesm/cesm/CSM/team08_run1
+NETCDF_FORTRAN_PATH=/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel
+HOME=/mnt/exports/shared/home/cesm
+CONDA_PYTHON_EXE=/opt/anaconda3/bin/python
+CMAKE_PREFIX_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c
+SSH_CLIENT=10.0.0.6 37086 22
+CPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/ipp/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/pstl/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/daal/include:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/include
+PNETCDF=/opt/nonspack/pnetcdf-1.12.1-intel
+SELINUX_LEVEL_REQUESTED=
+BASH_ENV=/usr/share/Modules/init/bash
+CYCLECLOUD_HOME=/opt/cycle/jetpack
+PSXE_2019=1
+_CE_CONDA=
+NLSPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64/locale/%l_%t/%N:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/debugger_2019/gdb/intel64/share/locale/%l_%t/%N
+HDF5=/opt/nonspack/hdf5-intel-19.0.5.281-parallel
+LIBRARY_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/lib/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/libfabric/lib:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64_lin/gcc4.4:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/lib
+LID=201110-053317
+LOADEDMODULES=
+VT_LIB_DIR=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/lib
+DAALROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/daal
+INTEL_LICENSE_FILE=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/licenses:/opt/intel/licenses:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/intel/licenses:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/licenses:/opt/intel/licenses:/mnt/exports/shared/home/cesm/intel/licenses:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/licenses:/opt/intel/licenses:/mnt/exports/shared/home/cesm/intel/licenses:/Users/Shared/Library/Application Support/Intel/Licenses
+MPICC=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin/mpicc
+CONDA_PROMPT_MODIFIER=(base) 
+SSH_TTY=/dev/pts/0
+MAIL=/var/spool/mail/cesm
+MPIFC=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin/mpif90
+VT_ROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041
+SPACK_ROOT=/opt/spack
+TERM=xterm-256color
+SHELL=/bin/bash
+SPACK_LOADED_HASHES=oiqmrdk6ncd7mtzumegv6d3uk72wcj7c
+VT_ADD_LIBS=-ldwarf -lelf -lvtunwind -lm -lpthread
+SELINUX_USE_CURRENT_RANGE=
+ADVISOR_2019_DIR=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/advisor_2019.5.0.602216
+SHLVL=3
+PYTHONPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/advisor_2019.5.0.602216/pythonapi
+MPIF77=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin/mpif77
+MANPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/man:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/man:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/man/common:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/man:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/documentation_2019/en/debugger/gdb-ia/man/:/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/share/man:/opt/nonspack/pnetcdf-1.12.1-intel/share/man:/opt/anaconda3/man:/usr/local/share/man:/usr/share/man:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/man
+SPACK_LD_LIBRARY_PATH=/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/lib:/opt/nonspack/hdf5-intel-19.0.5.281-parallel/lib:/opt/nonspack/pnetcdf-1.12.1-intel/lib:
+MODULEPATH=/opt/spack/share/spack/modules/linux-centos8-x86_64:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+CIMEROOT=/mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../..
+NETCDF_C_PATH=/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel
+LOGNAME=cesm
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/11105/bus
+XDG_RUNTIME_DIR=/run/user/11105
+MKLROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl
+CPLUS_INCLUDE_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/include
+MODULEPATH_modshare=/usr/share/modulefiles:1:/etc/modulefiles:1:/usr/share/Modules/modulefiles:1
+PSTLROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/pstl
+PATH=/opt/anaconda3/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/advisor_2019.5.0.602216/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/vtune_amplifier_2019.6.0.602217/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/inspector_2019.5.0.602103/bin64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/itac/2019.5.041/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/clck/2019.5/bin/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/bin/intel64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/libfabric/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/debugger_2019/gdb/intel64/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/bin:/opt/nonspack/netcdf-c-intel-19.0.5.281-parallel/bin:/opt/nonspack/hdf5-intel-19.0.5.281-parallel/bin:/opt/nonspack/pnetcdf-1.12.1-intel/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/cycle/jetpack/bin:/opt/spack/bin:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/parallel_studio_xe_2019.5.075/bin
+TBBROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/tbb
+MODULESHOME=/usr/share/Modules
+CONDA_DEFAULT_ENV=root
+PKG_CONFIG_PATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/advisor_2019.5.0.602216/include/pkgconfig/lib64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/vtune_amplifier_2019.6.0.602217/include/pkgconfig/lib64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/inspector_2019.5.0.602103/include/pkgconfig/lib64:/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mkl/bin/pkgconfig
+INFOPATH=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/documentation_2019/en/debugger/gdb-ia/info
+VTUNE_AMPLIFIER_2019_DIR=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/vtune_amplifier_2019.6.0.602217
+I_MPI_ROOT=/opt/spack/opt/spack/linux-centos8-broadwell/gcc-8.3.1/intel-parallel-studio-cluster-2019.5-oiqmrdk6ncd7mtzumegv6d3uk72wcj7c/compilers_and_libraries_2019.5.281/linux/mpi
+HISTSIZE=1000
+CYCLECLOUD_BOOTSTRAP=/opt/cycle/jetpack/system/bootstrap
+BATCHQUERY=undefined
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_module%%=() {  _moduleraw "$@" 2>&1
+}
+BASH_FUNC_spack%%=() {  for var in LD_LIBRARY_PATH DYLD_LIBRARY_PATH DYLD_FALLBACK_LIBRARY_PATH;
+ do
+ eval "if [ -n \"\${${var}-}\" ]; then export SPACK_$var=\${${var}}; fi";
+ done;
+ if [ -n "${ZSH_VERSION:-}" ]; then
+ emulate -L sh;
+ fi;
+ _sp_flags="";
+ while [ ! -z ${1+x} ] && [ "${1#-}" != "${1}" ]; do
+ _sp_flags="$_sp_flags $1";
+ shift;
+ done;
+ if [ -n "$_sp_flags" ] && [ "${_sp_flags#*h}" != "${_sp_flags}" ] || [ "${_sp_flags#*V}" != "${_sp_flags}" ]; then
+ command spack $_sp_flags "$@";
+ return;
+ fi;
+ _sp_subcommand="";
+ if [ ! -z ${1+x} ]; then
+ _sp_subcommand="$1";
+ shift;
+ fi;
+ case $_sp_subcommand in 
+ "cd")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack cd -h;
+ else
+ LOC="$(spack location $_sp_arg "$@")";
+ if [ -d "$LOC" ]; then
+ cd "$LOC";
+ else
+ return 1;
+ fi;
+ fi;
+ return
+ ;;
+ "env")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack env -h;
+ else
+ case $_sp_arg in 
+ activate)
+ _a=" $@";
+ if [ -z ${1+x} ] || [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack env activate "$@";
+ else
+ eval $(command spack $_sp_flags env activate --sh "$@");
+ fi
+ ;;
+ deactivate)
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ]; then
+ command spack env deactivate "$@";
+ else
+ if [ -n "$*" ]; then
+ command spack env deactivate -h;
+ else
+ eval $(command spack $_sp_flags env deactivate --sh);
+ fi;
+ fi
+ ;;
+ *)
+ command spack env $_sp_arg "$@"
+ ;;
+ esac;
+ fi;
+ return
+ ;;
+ "load" | "unload")
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack $_sp_flags $_sp_subcommand "$@";
+ else
+ eval $(command spack $_sp_flags $_sp_subcommand --sh "$@" ||                     echo "return 1");
+ fi
+ ;;
+ *)
+ command spack $_sp_flags $_sp_subcommand "$@"
+ ;;
+ esac
+}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC__moduleraw%%=() {  unset _mlre _mlIFS _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre}/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS _mlshdbg;
+ return $_mlstatus
+}
+_=/usr/bin/env

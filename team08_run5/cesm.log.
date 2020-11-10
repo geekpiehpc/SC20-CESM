@@ -1,0 +1,153 @@
+[mpiexec@ip-0A000005] Sending Ctrl-C to processes as requested
+[mpiexec@ip-0A000005] Press Ctrl-C again to force abort
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B94466025F0  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B9446601EA0  open64                Unknown  Unknown
+cesm.exe           00000000033146DF  Unknown               Unknown  Unknown
+cesm.exe           00000000032B3DF6  Unknown               Unknown  Unknown
+cesm.exe           00000000032CE296  Unknown               Unknown  Unknown
+cesm.exe           00000000004332AC  cime_comp_mod_mp_        3514  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9446B33505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B9737B715F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9738163727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002B9736BFECA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002B9736D651E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B9736BDBB68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B9736D66A6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B9736BDEBB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B9736BE8CAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B9736BE81B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002B9736776924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B97380A2505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B880C4A45F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002B880CA96727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002B880B531CA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002B880B6981E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B880B50EB68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B880B699A6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B880B511BB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B880B51BCAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B880B51B1B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002B880B0A9924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B880C9D5505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B8C283BC5F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8C289AE727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002B8C27449CA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002B8C275B01E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B8C27426B68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B8C275B1A6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B8C27429BB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B8C27433CAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B8C274331B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002B8C26FC1924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8C288ED505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002BA3A86C55F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA3A8CB7727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002BA3A7752CA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002BA3A78B91E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002BA3A772FB68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002BA3A78BAA6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002BA3A7732BB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002BA3A773CCAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002BA3A773C1B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002BA3A72CA924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA3A8BF6505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002ADEC0CA65F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADEC1298727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002ADEBFD33CA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002ADEBFE9A1E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002ADEBFD10B68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002ADEBFE9BA6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002ADEBFD13BB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002ADEBFD1DCAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002ADEBFD1D1B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002ADEBF8AB924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADEC11D7505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B32B20465F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002B32B2638727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002B32B10D3CA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002B32B123A1E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B32B10B0B68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B32B123BA6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B32B10B3BB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B32B10BDCAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B32B10BD1B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002B32B0C4B924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B32B2577505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+cesm.exe           000000000329E17E  Unknown               Unknown  Unknown
+libpthread-2.17.s  00002B4B131005F0  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4B136F2727  __sched_yield         Unknown  Unknown
+libmpi.so.12.0     00002B4B1218DCA3  PMPIDI_CH3I_Progr     Unknown  Unknown
+libmpi.so.12.0     00002B4B122F41E0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B4B1216AB68  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B4B122F5A6A  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B4B1216DBB0  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B4B12177CAE  Unknown               Unknown  Unknown
+libmpi.so.12.0     00002B4B121771B3  MPI_Bcast             Unknown  Unknown
+libmpifort.so.12.  00002B4B11D05924  pmpi_bcast            Unknown  Unknown
+cesm.exe           000000000300686F  shr_mpi_mod_mp_sh         499  shr_mpi_mod.F90
+cesm.exe           000000000043332A  cime_comp_mod_mp_        3525  cime_comp_mod.F90
+cesm.exe           0000000000434C05  MAIN__                     61  cime_driver.F90
+cesm.exe           0000000000415FDE  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4B13631505  __libc_start_main     Unknown  Unknown
+cesm.exe           0000000000415EEE  Unknown               Unknown  Unknown
+[mpiexec@ip-0A000012] check_exit_codes (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:114): unable to run proxy on 172.16.1.207 (pid 12554)
+[mpiexec@ip-0A000012] poll_for_event (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:152): check exit codes error
+[mpiexec@ip-0A000012] HYD_dmx_poll_wait_for_proxy_event (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:205): poll for event error
+[mpiexec@ip-0A000012] HYD_bstrap_setup (../../../../../src/pm/i_hydra/libhydra/bstrap/src/intel/i_hydra_bstrap.c:731): error waiting for event
+[mpiexec@ip-0A000012] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:1919): error setting up the boostrap proxies

@@ -28,3 +28,258 @@
 ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/rof.bldlog.201109-145655
 BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/ice.bldlog.201109-145655
  ---------------------------------------------------
+2020-11-09 18:22:12: case.build starting 
+ ---------------------------------------------------
+2020-11-09 18:22:13: case.build error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-09 18:22:52: build.clean starting 
+ ---------------------------------------------------
+2020-11-09 18:24:04: build.clean error 
+
+ ---------------------------------------------------
+2020-11-09 18:24:08: case.build starting 
+ ---------------------------------------------------
+2020-11-09 18:24:09: case.build error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-09 19:23:36: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:23:42: case.build error 
+
+ ---------------------------------------------------
+2020-11-09 19:24:08: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:47:55: case.build error 
+ERROR: BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/rof.bldlog.201109-192408
+BUILD FAIL: cice.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/ice.bldlog.201109-192408
+ ---------------------------------------------------
+2020-11-09 20:01:59: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 20:02:07: case.submit error 
+ERROR: Build complete is not True please rebuild the model by calling case.build
+ ---------------------------------------------------
+2020-11-09 20:02:31: build.clean starting 
+ ---------------------------------------------------
+2020-11-09 20:05:48: build.clean success 
+ ---------------------------------------------------
+2020-11-09 20:05:59: case.build starting 
+ ---------------------------------------------------
+2020-11-09 20:17:49: case.build success 
+ ---------------------------------------------------
+2020-11-10 03:34:41: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:34:48: case.run starting 
+ ---------------------------------------------------
+2020-11-10 03:34:53: model execution starting 
+ ---------------------------------------------------
+2020-11-10 03:34:53: model execution success 
+ ---------------------------------------------------
+2020-11-10 03:34:53: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 504 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-033448
+ ---------------------------------------------------
+2020-11-10 03:34:53: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 504 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-033448
+ ---------------------------------------------------
+2020-11-10 03:36:15: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:36:21: case.run starting 
+ ---------------------------------------------------
+2020-11-10 03:36:27: model execution starting 
+ ---------------------------------------------------
+2020-11-10 03:38:58: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 03:38:58: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 03:38:58: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 03:43:09: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:43:16: case.run starting 
+ ---------------------------------------------------
+2020-11-10 03:43:21: model execution starting 
+ ---------------------------------------------------
+2020-11-10 03:45:37: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 03:45:37: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 03:45:37: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 03:47:04: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:47:06: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-10 03:47:55: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:47:57: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-10 03:48:52: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:49:17: case.run starting 
+ ---------------------------------------------------
+2020-11-10 03:49:33: model execution starting 
+ ---------------------------------------------------
+2020-11-10 03:49:51: model execution success 
+ ---------------------------------------------------
+2020-11-10 03:49:51: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-034917
+ ---------------------------------------------------
+2020-11-10 03:49:51: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-034917
+ ---------------------------------------------------
+2020-11-10 03:51:41: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:51:44: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 03:52:08: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:52:22: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 03:52:29: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 03:53:49: case.run starting 
+ ---------------------------------------------------
+2020-11-10 03:53:56: model execution starting 
+ ---------------------------------------------------
+2020-11-10 04:08:05: model execution success 
+ ---------------------------------------------------
+2020-11-10 04:08:05: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-035349
+ ---------------------------------------------------
+2020-11-10 04:08:05: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-035349
+ ---------------------------------------------------
+2020-11-10 05:30:08: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:30:10: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-10 05:33:06: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:33:17: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:33:24: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:34:11: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 05:34:11: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 05:34:11: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 05:43:05: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:43:19: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:43:27: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:43:37: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 05:43:37: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 05:43:37: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 05:45:01: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:45:16: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:45:24: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:46:24: model execution success 
+ ---------------------------------------------------
+2020-11-10 05:46:24: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-054516
+ ---------------------------------------------------
+2020-11-10 05:46:24: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-054516
+ ---------------------------------------------------
+2020-11-10 05:46:51: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:47:00: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:47:07: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:48:08: model execution success 
+ ---------------------------------------------------
+2020-11-10 05:48:08: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-054700
+ ---------------------------------------------------
+2020-11-10 05:48:08: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-054700
+ ---------------------------------------------------
+2020-11-10 05:48:51: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:48:53: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-10 06:02:30: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:02:46: case.run starting 
+ ---------------------------------------------------
+2020-11-10 06:02:53: model execution starting 
+ ---------------------------------------------------
+2020-11-10 06:11:27: model execution success 
+ ---------------------------------------------------
+2020-11-10 06:11:27: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-060246
+ ---------------------------------------------------
+2020-11-10 06:11:27: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/run/cesm.log.201110-060246
+ ---------------------------------------------------
+2020-11-10 06:39:23: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:39:32: case.run starting 
+ ---------------------------------------------------
+2020-11-10 06:39:39: model execution starting 
+ ---------------------------------------------------

@@ -95,3 +95,276 @@ See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team0
 ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
 See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-163439
  ---------------------------------------------------
+2020-11-09 16:39:24: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 16:39:29: case.run starting 
+ ---------------------------------------------------
+2020-11-09 16:39:33: model execution starting 
+ ---------------------------------------------------
+2020-11-09 16:39:33: model execution success 
+ ---------------------------------------------------
+2020-11-09 16:39:33: case.run error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-163929
+ ---------------------------------------------------
+2020-11-09 16:39:33: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe  >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-163929
+ ---------------------------------------------------
+2020-11-09 17:30:23: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 17:30:26: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-09 17:30:49: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 17:31:07: case.run starting 
+ ---------------------------------------------------
+2020-11-09 17:31:15: model execution starting 
+ ---------------------------------------------------
+2020-11-09 17:31:15: model execution success 
+ ---------------------------------------------------
+2020-11-09 17:31:15: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-173107
+ ---------------------------------------------------
+2020-11-09 17:31:15: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-173107
+ ---------------------------------------------------
+2020-11-09 17:31:42: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 17:31:51: case.run starting 
+ ---------------------------------------------------
+2020-11-09 17:31:58: model execution starting 
+ ---------------------------------------------------
+2020-11-09 17:32:59: model execution success 
+ ---------------------------------------------------
+2020-11-09 17:32:59: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-173151
+ ---------------------------------------------------
+2020-11-09 17:32:59: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-173151
+ ---------------------------------------------------
+2020-11-09 18:10:40: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 18:10:49: case.run starting 
+ ---------------------------------------------------
+2020-11-09 18:10:57: model execution starting 
+ ---------------------------------------------------
+2020-11-09 18:13:45: model execution error 
+
+ ---------------------------------------------------
+2020-11-09 18:13:45: case.run error 
+
+ ---------------------------------------------------
+2020-11-09 18:13:45: case.submit error 
+
+ ---------------------------------------------------
+2020-11-09 19:19:13: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:30:33: case.build success 
+ ---------------------------------------------------
+2020-11-09 19:58:23: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 19:58:34: case.run starting 
+ ---------------------------------------------------
+2020-11-09 19:58:42: model execution starting 
+ ---------------------------------------------------
+2020-11-09 19:58:48: model execution success 
+ ---------------------------------------------------
+2020-11-09 19:58:48: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-195834
+ ---------------------------------------------------
+2020-11-09 19:58:48: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run5/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201109-195834
+ ---------------------------------------------------
+2020-11-09 20:01:33: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 20:01:41: case.run starting 
+ ---------------------------------------------------
+2020-11-09 20:01:48: model execution starting 
+ ---------------------------------------------------
+2020-11-09 20:05:25: model execution error 
+
+ ---------------------------------------------------
+2020-11-09 20:05:25: case.run error 
+
+ ---------------------------------------------------
+2020-11-09 20:05:25: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 04:09:44: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 04:09:56: case.run starting 
+ ---------------------------------------------------
+2020-11-10 04:10:04: model execution starting 
+ ---------------------------------------------------
+2020-11-10 04:34:21: model execution success 
+ ---------------------------------------------------
+2020-11-10 04:34:21: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-040956
+ ---------------------------------------------------
+2020-11-10 04:34:21: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-040956
+ ---------------------------------------------------
+2020-11-10 05:42:20: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:42:22: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 05:42:33: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:42:47: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:42:55: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:43:31: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 05:43:31: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 05:43:31: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 05:44:11: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:44:26: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:44:34: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:45:23: model execution error 
+
+ ---------------------------------------------------
+2020-11-10 05:45:23: case.run error 
+
+ ---------------------------------------------------
+2020-11-10 05:45:24: case.submit error 
+
+ ---------------------------------------------------
+2020-11-10 05:50:37: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:50:46: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:50:53: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:51:55: model execution success 
+ ---------------------------------------------------
+2020-11-10 05:51:55: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055046
+ ---------------------------------------------------
+2020-11-10 05:51:55: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055046
+ ---------------------------------------------------
+2020-11-10 05:52:06: case.setup starting 
+ ---------------------------------------------------
+2020-11-10 05:52:07: case.setup success 
+ ---------------------------------------------------
+2020-11-10 05:55:20: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:55:35: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:55:42: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:56:43: model execution success 
+ ---------------------------------------------------
+2020-11-10 05:56:43: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055535
+ ---------------------------------------------------
+2020-11-10 05:56:43: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055535
+ ---------------------------------------------------
+2020-11-10 05:57:10: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:57:19: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:57:26: model execution starting 
+ ---------------------------------------------------
+2020-11-10 05:58:27: model execution success 
+ ---------------------------------------------------
+2020-11-10 05:58:27: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055719
+ ---------------------------------------------------
+2020-11-10 05:58:27: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055719
+ ---------------------------------------------------
+2020-11-10 05:59:21: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 05:59:30: case.run starting 
+ ---------------------------------------------------
+2020-11-10 05:59:39: model execution starting 
+ ---------------------------------------------------
+2020-11-10 06:00:40: model execution success 
+ ---------------------------------------------------
+2020-11-10 06:00:40: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055930
+ ---------------------------------------------------
+2020-11-10 06:00:40: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-055930
+ ---------------------------------------------------
+2020-11-10 06:07:11: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:07:21: case.submit error 
+ERROR: Command /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/build-namelist failed rc=2
+out=
+err=Can't locate bigint.pm in @INC (you may need to install the bigint module) (@INC contains: /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /mnt/exports/shared/home/cesm/cesm/cesm/cime/scripts/Tools/../../utils/perl5lib /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5) at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+BEGIN failed--compilation aborted at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/config_files/clm_phys_vers.pm line 30.
+Compilation failed in require at /mnt/exports/shared/home/cesm/cesm/cesm/components/clm/bld/CLMBuildNamelist.pm line 374.
+ ---------------------------------------------------
+2020-11-10 06:14:26: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:14:38: case.run starting 
+ ---------------------------------------------------
+2020-11-10 06:14:46: model execution starting 
+ ---------------------------------------------------
+2020-11-10 06:14:49: model execution success 
+ ---------------------------------------------------
+2020-11-10 06:14:49: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-061438
+ ---------------------------------------------------
+2020-11-10 06:14:49: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-061438
+ ---------------------------------------------------
+2020-11-10 06:16:12: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:16:27: case.run starting 
+ ---------------------------------------------------
+2020-11-10 06:16:34: model execution starting 
+ ---------------------------------------------------
+2020-11-10 06:36:03: model execution success 
+ ---------------------------------------------------
+2020-11-10 06:36:03: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-061627
+ ---------------------------------------------------
+2020-11-10 06:36:03: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 960 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host  /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run5/run/cesm.log.201110-061627
+ ---------------------------------------------------
+2020-11-10 06:43:46: case.submit starting 
+ ---------------------------------------------------
+2020-11-10 06:44:16: case.run starting 
+ ---------------------------------------------------
+2020-11-10 06:44:31: model execution starting 
+ ---------------------------------------------------

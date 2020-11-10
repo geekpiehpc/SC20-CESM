@@ -794,7 +794,7 @@
     </entry>
   </group>
   <group id="run_mpi">
-    <entry id="MPI_RUN_COMMAND" value="UNSET">
+    <entry id="MPI_RUN_COMMAND" value="mpirun -np 960 -machinefile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run1/host ">
       <type>char</type>
       <desc>override the mpi run command, do not include model executable</desc>
     </entry>
@@ -862,15 +862,15 @@
       <valid_values>netcdf,netcdf4p,netcdf4c</valid_values>
       <desc>pio io type</desc>
       <values>
-        <value compclass="ATM">netcdf</value>
-        <value compclass="CPL">netcdf</value>
-        <value compclass="OCN">netcdf</value>
-        <value compclass="WAV">netcdf</value>
-        <value compclass="GLC">netcdf</value>
-        <value compclass="ICE">netcdf</value>
-        <value compclass="ROF">netcdf</value>
-        <value compclass="LND">netcdf</value>
-        <value compclass="ESP">netcdf</value>
+        <value compclass="ATM">netcdf4p</value>
+        <value compclass="CPL">netcdf4p</value>
+        <value compclass="OCN">netcdf4p</value>
+        <value compclass="WAV">netcdf4p</value>
+        <value compclass="GLC">netcdf4p</value>
+        <value compclass="ICE">netcdf4p</value>
+        <value compclass="ROF">netcdf4p</value>
+        <value compclass="LND">netcdf4p</value>
+        <value compclass="ESP">netcdf4p</value>
       </values>
     </entry>
     <entry id="PIO_NETCDF_FORMAT">

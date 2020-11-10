@@ -6,7 +6,7 @@
     environment variables for use in the running job should also be set	here.
     </header>
   <group id="compliant_values">
-    <entry id="run_exe" value="${EXEROOT}/cesm.exe ">
+    <entry id="run_exe" value="/mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run1/bld/cesm.exe ">
       <type>char</type>
       <desc>executable name</desc>
     </entry>

@@ -37,3 +37,58 @@ BUILD FAIL: mosart.buildlib failed, cat /mnt/exports/shared/home/cesm/cesm/CESMr
 2020-11-09 16:23:54: case.build error 
 ERROR: /mnt/exports/shared/home/cesm/cesm/cesm/cime/src/build_scripts/buildlib.gptl FAILED, cat /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run3/bld/gptl.bldlog.201109-162348
  ---------------------------------------------------
+2020-11-09 18:56:27: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:09:42: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+    ERROR:root:SVN returned invalid XML message
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CAM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_POP.cfg
+    Checking status of externals: cam, chem_proc, 
+    ERROR: SVN returned invalid XML message
+
+To solve this, either:
+
+(1) Find and fix the problem: From /mnt/exports/shared/home/cesm/cesm/cesm, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2020-11-09 19:10:00: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:10:51: case.build success 
+ ---------------------------------------------------
+2020-11-09 19:18:02: case.build starting 
+ ---------------------------------------------------
+2020-11-09 19:18:54: case.build success 
+ ---------------------------------------------------
+2020-11-09 19:59:15: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 19:59:20: case.run starting 
+ ---------------------------------------------------
+2020-11-09 19:59:23: model execution starting 
+ ---------------------------------------------------
+2020-11-09 20:02:24: model execution success 
+ ---------------------------------------------------
+2020-11-09 20:02:24: case.run error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run2/host /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run3/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run3/run/cesm.log.201109-195920
+ ---------------------------------------------------
+2020-11-09 20:02:24: case.submit error 
+ERROR: RUN FAIL: Command 'mpirun -np 480 -hostfile /mnt/exports/shared/home/cesm/cesm/CSM/team08_run2/host /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run3/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /mnt/exports/shared/home/cesm/cesm/CESMruns/runs/team08_run3/run/cesm.log.201109-195920
+ ---------------------------------------------------
+2020-11-09 20:05:43: case.submit starting 
+ ---------------------------------------------------
+2020-11-09 20:05:49: case.run starting 
+ ---------------------------------------------------
+2020-11-09 20:05:54: model execution starting 
+ ---------------------------------------------------
